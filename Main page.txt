@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head><title>E-PORTFOLIO</title></head>
+<body>
+<p style="background-image: url('forest.jpg');font-family:Arial;font-size:100px;text-align:center;color:white">WELCOME TO MY PORTFOLIO</p>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.dropbtn {background-color: #04AA6D;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
+</style>
+</head>
+<body style="background-color:Chartreuse;">
+
+<h2>E-Portfolio</h2>
+<p>Move the mouse over the button to open the dropdown menu.</p>
+
+<div class="dropdown">
+  <button class="dropbtn">Dropdown</button>
+  <div class="dropdown-content">
+    <a href="file:///C:/Users/PC/OneDrive/Desktop/E-Portfolio/Personal%20Space.html" target="blank">My Personal Space</a>
+    <a href="file:///C:/Users/PC/OneDrive/Desktop/E-Portfolio/AP%20Page.html" target="blank">AP Lessons</a>
+    <a href="file:///C:/Users/PC/OneDrive/Desktop/E-Portfolio/Ict%20outputs.html" target="blank">Ict Outputs and Events</a>
+  </div>
+</div>
+
+
+</body>
+</html>
